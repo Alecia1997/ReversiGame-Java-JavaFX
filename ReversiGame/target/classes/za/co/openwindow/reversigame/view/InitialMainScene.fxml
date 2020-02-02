@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="initialBG" prefHeight="400.0" prefWidth="600.0" stylesheets="/za/co/openwindow/reversigame/css/style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="za.co.openwindow.reversigame.controller.InitialMainSceneController">
+   <children>
+      <Button fx:id="startButton" layoutX="256.0" layoutY="173.0" mnemonicParsing="false" styleClass="startButtonColor" text="Get Started" textFill="WHITE">
+         <font>
+            <Font name="Homestead-Display" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
